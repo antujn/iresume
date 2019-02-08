@@ -4563,7 +4563,8 @@ to {
   -webkit-transition-timing-function: ease, ease;
   -moz-transition-timing-function: ease, ease;
   transition-timing-function: ease, ease;
-  background: transparent url("../img/hireme_author_img.jpg") 100% 100% no-repeat;
+  background: transparent url("../img/IMG_20190202_163241_940.jpg") 100% 100% no-repeat;
+    background-size: 100vh;
   content: '';
   opacity: 0
 }
