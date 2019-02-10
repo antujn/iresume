@@ -1,0 +1,96 @@
+/*
+	Theme Name: Hireme - Responsive Resume Wordpress Theme
+	Theme URI: http://terranet.md
+	Author: Terranet team
+	Author URI: http://terranet.md
+	Description: Hireme is simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+	Version: 1.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	License: GNU General Public License
+	License URI: README_License.txt
+	Text Domain: hireme
+*/
+
+
+/**
+ * Alignments
+ */
+
+ /** Wordpress default clases */
+.bypostauthor{}
+body{}
+
+aside .aside-list select{
+	width: 75%;
+}
+
+.gallery-caption { color: #888; font-size: 12px; margin: 0 0 12px; }
+
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.alignnone,
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+acronym {
+  border-bottom: 1px dashed blue;
+  color: maroon;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
+
+i, 
+em, 
+var, 
+address, 
+dfn,
+q,
+cite{
+	font-style: italic;
+}
+
+code{
+	display: inline-block;
+}
+
+.wp-caption-text{}
